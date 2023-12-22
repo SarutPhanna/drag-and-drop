@@ -10,21 +10,21 @@ body {
 }
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.equip-slot img ,.weapon-list img  {
+.equip-slot img,
+.weapon-list img {
   width: 100%;
   max-width: 300px;
   height: auto;
@@ -32,25 +32,12 @@ h2 {
   object-fit: cover;
   border-radius: 20px;
   cursor: pointer;
-}   
+}
 
 .weapon-list img {
-    margin: 20px; 
+  margin: 20px;
 }
 
 img:hover {
-    box-shadow: -1px -1px 8px 10px rgba(255, 255, 255, 0.48);
+  box-shadow: -1px -1px 8px 10px rgba(255, 255, 255, 0.48);
 }
-
-@media screen and (max-width: 800px) {
-    .equip-slot,
-    .weapon-list {
-      padding: 20px;
-    }
-  
-    .equip-slot img,
-    .weapon-list img {
-      width: 100%;
-      height: auto;
-    }
-  }
