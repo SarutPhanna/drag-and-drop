@@ -19,14 +19,20 @@ body {
   align-items: center;
 }
 
+.weapon-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
 h2 {
   margin-bottom: 20px;
 }
 
 .equip-slot img,
 .weapon-list img {
-  width: 100%;
-  max-width: 300px;
+  width: 300px;
   height: auto;
   margin: 0 20px;
   object-fit: cover;
